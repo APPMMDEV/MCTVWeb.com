@@ -56,7 +56,7 @@ function getAllData(){
                 <p class="card_preview-title">${allData.Movies_Database[single].movietitle}</p>
                
                
-                <p><img src="${allData.Movies_Database[single].movie_img}" alt="alternatetext"  height="250" width="150"></p>
+                <p><img src="${allData.Movies_Database[single].movie_img}" alt="${allData.Movies_Database[single].movietitle}"  height="250" width="150"></p>
           
                
 
