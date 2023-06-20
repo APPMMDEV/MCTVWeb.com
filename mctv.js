@@ -64,7 +64,7 @@ function getAllData(){
 
                 <br>
                
-                <button onclick="allet('${vtitle}','${link}')" class="btn btn-primary"> Watch Video...</button>
+                <button onclick="allet('${vtitle}','${link}')" class="show-modal"> Watch Video...</button>
                 
  
                 
@@ -76,7 +76,6 @@ function getAllData(){
     
 
     alllist.innerHTML = dataStore;
-    console.log(allData);
     
        
     }
